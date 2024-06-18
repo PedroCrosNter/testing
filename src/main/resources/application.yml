@@ -1,0 +1,44 @@
+#server:
+#  name: server-port-8080
+#  port: 8080
+#
+#spring:
+##  main:
+##    allow-circular-references: true
+#  application:
+#    name: block5-crud-validation-testing
+#  datasource:
+#    # H2
+##    url: jdbc:h2:file:./db/block5-crud-validation;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+##    driver-class-name: org.h2.Driver
+##    username: root
+##    password:
+#    url: jdbc:postgresql://postgres:5432/testing_db
+#    driver-class-name: org.postgresql.Driver
+#    username: root
+#    password: root
+#  jpa:
+#    hibernate:
+#      ddl-auto: update
+##    database-platform: org.hibernate.dialect.H2Dialect
+#    database-platform: org.hibernate.dialect.PostgreSQLDialect
+#
+#
+#logging:
+#  level:
+#    org.hibernate: DEBUG
+
+server:
+  name: server-port-8080
+  port: 8080
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/testing_db?serverTimezone=UTC
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.MySQL8Dialect

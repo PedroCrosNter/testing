@@ -1,0 +1,20 @@
+2024-06-04 11:47:39.397110+02:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "[*]describe subject"; se esperaba "DELETE, DROP"
+Syntax error in SQL statement "[*]describe subject"; expected "DELETE, DROP"; SQL statement:
+describe subject [42001-224]
+2024-06-04 11:47:44.948290+02:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "[*]describe subject"; se esperaba "DELETE, DROP"
+Syntax error in SQL statement "[*]describe subject"; expected "DELETE, DROP"; SQL statement:
+describe subject [42001-224]
+2024-06-04 11:49:12.383098+02:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "[*]describe subject"; se esperaba "DELETE, DROP"
+Syntax error in SQL statement "[*]describe subject"; expected "DELETE, DROP"; SQL statement:
+describe subject [42001-224]
+2024-06-04 11:50:42.083925+02:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "SSUBJECT" no encontrada
+Table "SSUBJECT" not found; SQL statement:
+select * from ssubject [42102-224]
+2024-06-04 13:32:29.259719+02:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "SUBJECTS" no encontrada
+Table "SUBJECTS" not found; SQL statement:
+select * from subjects [42102-224]
